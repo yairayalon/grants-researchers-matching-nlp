@@ -1,16 +1,17 @@
-# Recommender Grant Call Solicitations and Authors' Abstracts Matching System Project
+# Grant2Research: NLP-Powered Matching of Grants and Research Abstracts
 
 ## Overview
 
-This system matches grant call solicitations from the National Institutes of
-Health (NIH) with research abstracts from Semantic Scholar, a free academic
-search engine, using natural language processing (NLP) models. The process
-starts by scraping grant calls and abstracts, which are then embedded using NLP
-models to capture their semantic meaning. These embeddings are stored in a
-Qdrant vector database, which enables efficient similarity-based matching. A
-GUI-based application allows users to input URLs or free text, customize search
-parameters, and easily navigate the results, streamlining the process of
-identifying grant applicants and funding opportunities.
+The Grant2Research system matches grant call solicitations from
+the National Institutes of Health (NIH) with research abstracts from Semantic
+Scholar, a free academic search engine, using natural language processing (NLP)
+models. The process starts by scraping grant calls and abstracts, which are
+then embedded using NLP models to capture their semantic meaning. These
+embeddings are stored in a Qdrant vector database, which enables efficient
+similarity-based matching. A GUI-based application allows users to input URLs
+or free text, customize search parameters, and easily navigate the results,
+streamlining the process of identifying grant applicants and funding
+opportunities.
 
 ## Table of Contents
 
@@ -72,7 +73,8 @@ the `main_pipeline.py` run are:
 > The files `grant_calls.xlsx` and `abstracts.xlsx` neatly summarize the
 > filtered grant calls and the filtered abstracts respectively that can be used
 > within the matching system. Each of these files will be created if the code
-> line responsible for its creation, in the bottom of `grant_call_scraping.py` or
+> line responsible for its creation, in the bottom of `grant_call_scraping.py`
+> or
 > in the bottom of `abstracts_scraping.py` respectively, is uncommented - make
 > sure a file named `grant_calls.xlsx` or a file named `abstracts.xlsx`
 > respectively is not open on the computer before running this code line.

@@ -1,6 +1,6 @@
 # Grant2Research: NLP-Powered Matching of Grants and Research Abstracts
 
-[![Grant2Research UI](media/grant2research_ui.jpg)
+![Grant2Research UI](media/grant2research_ui.jpg)
 
 ## Overview
 

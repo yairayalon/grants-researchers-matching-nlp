@@ -1,5 +1,9 @@
 # Grant2Research: NLP-Powered Matching of Grants and Research Abstracts
 
+<video src="media/grant2research_ui_demo.mp4" controls="controls" style="max-width: 100%;">
+Your browser does not support the video tag.
+</video>
+
 ## Overview
 
 The Grant2Research system matches grant call solicitations from
